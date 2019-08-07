@@ -1,0 +1,86 @@
+.mainmenu a, .navbar-default .navbar-nav > li > a, .mainmenu ul li a , .navbar-expand-lg .navbar-nav .nav-link{color:#fff;font-size:16px;text-transform:capitalize;padding:15px 15px 14px;font-family:aktiv_grotesklight;display: block !important;}
+.mainmenu .active a, .mainmenu .active a:focus, .mainmenu .active a:hover, .mainmenu li a:hover, .mainmenu li a:focus, .navbar-default .navbar-nav>.show>a, .navbar-default .navbar-nav>.show>a:focus, .navbar-default .navbar-nav>.show>a:hover { color: #6dba47;  outline: 0;}
+/*==========Sub Menu=v==========*/
+.mainmenu .collapse ul > li:hover > a{ color: #6dba47;}
+/*.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .show .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .show .dropdown-menu > li > a:hover{background: #4CAF50;}*/
+.mainmenu .collapse ul ul ul > li:hover > a{background: #4CAF50;}
+
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:#fff;}
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background:#fff}
+.mainmenu .collapse ul ul ul ul, .mainmenu .collapse ul ul ul ul.dropdown-menu{background:#fff}
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu ul li ul li a { color: #333; font-size: 15px; display: block; padding: 5px 15px;}
+.mainmenu{border: 0 solid;margin: 0;padding: 0;min-height:20px;width: 100%; font-family:'aktiv_grotesklight' sans-serif !important;}
+.navbar-expand-lg .navbar-nav .dropdown-menu li i.fa {float: right; line-height: 22px;}
+.dropdown-menu {border: 1px solid rgba(255, 255, 255, 0) !important; border-radius: 0 !important; box-shadow: 1px 3px 5px 0px #ccc !important;}
+.dropdown-menu li:hover a { background: #fff !important; color: #000 !important;}
+@media only screen and (min-width: 767px) {
+/*.mainmenu .collapse ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul{position:absolute;top:99%;margin: 0; left:0;min-width:250px;display:none}*/
+/*******/
+/*.mainmenu .collapse ul ul li{position:relative}
+.mainmenu .collapse ul ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}*/
+/*******/
+/*.mainmenu .collapse ul ul ul li{position:relative}
+.mainmenu .collapse ul ul ul li:hover ul{display:block}
+.mainmenu .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}
+*/
+}
+@media only screen and (max-width: 769px) {
+	#mainnav li a {
+    padding: 15px 15px 14px;
+    display: block !important;
+    width: 100%;
+    color: #fff;
+    background: #6dba47;
+}
+#mainnav .rightside {
+    position: static !important;
+    top: 0;
+    right: 0;
+}
+#mainnav li {
+    display: block;
+    position: relative;
+}
+ul.dropdownmenu.right {
+    right: 0 !important;
+    left: auto !important;
+    position: relative;
+    width: 100%;
+    background: #6dba47 !important;
+}
+#mainnav li ul.dropdownmenu li a {
+    color: #000 !important;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    display: block;
+    line-height: 22px;
+}
+#mainnav li ul.dropdownmenu li a {
+    color: #fff !important;
+    padding: 0 0 0 25px;
+    margin: 0;
+    font-size: 15px;
+    display: block;
+    line-height: 28px;
+}
+.navbar-nav .show .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 35px}
+.navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 45px}
+}
+.dropdown:hover .dropdown-content {
+  display: block; background: #fff;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  left: 0;
+  box-shadow: 1px 2px 7px 2px #88888829;
+  z-index: 1;
+}
+.dropdown-content
