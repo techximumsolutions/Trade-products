@@ -599,8 +599,6 @@ Route::post('/language/', array(
 				
 		Route::get('/checkout/hyperpay', 'OrdersController@hyperpay');	
 		Route::get('/checkout/hyperpay/checkpayment', 'OrdersController@checkpayment');		
-		Route::post('/checkout/payment/changeresponsestatus', 'OrdersController@changeresponsestatus');
-		
-		
+		Route::post('/checkout/payment/changeresponsestatus', 'OrdersController@changeresponsestatus');		
 	});
 });
